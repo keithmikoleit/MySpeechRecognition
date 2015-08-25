@@ -1,3 +1,7 @@
+
+% TODO update comments
+% TODO update to use its own normalization facots, not the alpha numbers
+
 function [ beta, betam ] = betarec( A, B, Pi, alphac )
 % betarec This function returns the beta matrix for an HMM
 %
