@@ -79,7 +79,7 @@ for idx = 1:bins
    % Take the DCT of the log filterbank energies.
    temp =  dct(mellogspectrum(:,idx));
    % Keep DCT coefficients 1-13, discard the rest.
-   mfcc(1:nofeatures,idx) = temp(1:nofeatures);
+   mfcc(1:nofeatures,idx) = temp(0:nofeatures - 1);
 end
 
 logmelcep = mellogspectrum;

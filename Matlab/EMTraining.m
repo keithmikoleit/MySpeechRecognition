@@ -359,6 +359,8 @@ for l = 1:L
     plot(graphingalpha{1,l})
 end
 
-disp('done')
+disp()
+
+sprintf('done with %s.wav', utterance)
 
     
